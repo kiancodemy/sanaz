@@ -1,9 +1,11 @@
 {
   "name": "i",
   "private": true,
+  "homepage": "https://kiancodemy.github.io/sanaz",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
